@@ -2,7 +2,7 @@ console.log('App JQuery Ready.'); // sanity check
 
 $(function() {
   // console.log('fading componente: ', $('.flash')); // debug fadeout
-  $('.flash').delay(3000).fadeOut();
+  $('div.flash').delay(3000).fadeOut();
 });
 
 $('.deleteRow').on('click', function() {

@@ -41,7 +41,6 @@
           <th scope="col">ID</th> 
           <th scope="col">Title</th>
           <th scope="col">Text</th>
-<!--      <th scope="col">Action</th>-->
         </tr>
       </thead>
       <tbody>
@@ -49,7 +48,6 @@
         <tr><th scope="row" id="{{ entry.post_id }}">{{ entry.post_id }}
           <td>{{ entry.title }}</td>
           <td>{{ entry.text|safe }}</td>
-<!--      <td><button type="button" class="btn btn-danger btn-sm" id="{{ entry.post_id }}">Remove</button></td>-->
         </tr>
         {% endfor %}
       </tbody>
